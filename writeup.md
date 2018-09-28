@@ -35,7 +35,7 @@ Three sets of data (training, validation and test) are provided as pickle files.
 
 Here is an exploratory visualization of the data set. It's a collage of random selected all test data set. It's the most vivid way to show images. 
 
-![alt text][collage_datasets.JPG]
+![input data visualization](collage_datasets.JPG)
 
 #### 3. Augment the data by scaling and rotating
 
@@ -79,7 +79,7 @@ My final model results were:
 * validation set accuracy of 0.944
 * test set accuracy of 0.939
 
-![Training result][loss_accuracy.JPG]
+![Training result](loss_accuracy.JPG)
 
 If an iterative approach was chosen:
 * Standard LeNet used
@@ -95,7 +95,7 @@ If an iterative approach was chosen:
 
 Here are five German traffic signs that I found on the web:
 
-![mysigns][my_signs.JPG] 
+![mysigns](my_signs.JPG)
 
 Those images might be difficult because I download them from Internet and they're very bright, zoomed-in and some even with watermarks if looking closely. 
 
@@ -111,11 +111,11 @@ The code for making predictions on my final model is located in the 11th cell of
 
 For the first image, the model is relatively sure that this is a stop sign (probability of 0.6), and the image does contain a stop sign. The top five soft max probabilities were (the probabilities are shown in the image subject)
 
-![mysigns][my_sign_pred.JPG] 
+![mysigns](my_sign_pred.JPG) 
 
 
 
 ### (Optional) Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
 #### 1. Discuss the visual output of your trained network's feature maps. What characteristics did the neural network use to make classifications?
 
-![mysigns][feature_vis.JPG] 
+![mysigns](feature_vis.JPG) 
